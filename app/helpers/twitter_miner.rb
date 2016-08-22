@@ -30,7 +30,7 @@ class Miner
   end
 
   def savePosts
-    File.open("posts.yml", "w") {|file| file.write(@posts.to_yaml) }
+    File.open(__dir__ + "/posts.yml", "w") {|file| file.write(@posts.to_yaml) }
     output "Posts saved to posts.yml."
   end
   
