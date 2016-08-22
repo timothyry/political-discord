@@ -13,7 +13,7 @@ module Handles
                                "TheJetOnTNT", "RealStevenAdams", "arronafflalo", "colea45", "aldridge_12", "greenRAYn20", "aa000G9",
                                "Adeto_kouboS", "agentzeroshow", "Gustavo_Ayon15", "ShaneBattier", "kobebryant", "mchalmers15", "boogiecousins",
                                "StephenCurry30", "KDTrey5", "manuginobili", "Money23Green", "Jrue_Holiday11", "DwightHoward", 
-                               "Reggie_Jackson", "KingJames", "deandrejordan", "ZachLaVine", "kawhileonard", "Dame_Lillard", "tp9network",
+                               "Reggie_Jackson", "KingJames", "ZachLaVine", "kawhileonard", "Dame_Lillard", "tp9network",
                                "ChandlerParsons", "AustinRivers25", "drose", "rickyrubio9", "KarlTowns", "KembaWalker", "DwyaneWade", 
                                "youngwhiteside", "22wiggins", "IAmJustise", "MettaWorldPeace"]
                                
@@ -24,5 +24,6 @@ module Handles
                                 "#YES", "#BANG!", "#FromCapitalHill", "#babyfacedassassin", "#capitalGAINSfromtheGYM", "#EmailsFromErdogan", "#DYNAMITE", "#trainingday",
                                 "#fromDOWNTOWN", "#BOOMSHAKALAKA", "#JamsItIn", "#justabitoutside", "#RazzleDazzle", "#ImOnFire", "#KidAisAOkay", "#thaichilipeppersare100",
                                 "#TalesFromTheHill", "#stayshook", "#preach", "#iamkill", "#allyouneediskill", "#WhoseAllyIsSaudiArabiaAnyway", "#stepbacklegislation",
-                                "#r/nba"]
+                                "#r/nba", "#SueMe", "#KStreetKings", "#AnalyzeThis", "#DeathTax", "#RegressiveTaxPolicy", "#Containment", "#ForeignAid", "#Outreach",
+                                "#DEMOCRAZY", "#RepubliCanCan", "#2Incumbent2Quit"]
 end
