@@ -24,6 +24,7 @@ class Miner
   end
   
   def loadPosts
+    output "Test"
     @posts = YAML::load_file(File.join(__dir__, 'posts.yml'))
   end
 
