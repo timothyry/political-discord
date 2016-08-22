@@ -1,6 +1,6 @@
 require_relative '../helpers/replacements.rb'
-require_relative'../helpers/handles.rb'
-require_relative '..helpers/twitter_miner.rb'
+require_relative '../helpers/handles.rb'
+require_relative '../helpers/twitter_miner.rb'
 require 'yaml'
 
 class Discord
@@ -145,6 +145,7 @@ end
 class WelcomeController < ApplicationController
   include Replacements
   include Handles
+  include TwitterMiner
   
   def index
     startTime = Time.now

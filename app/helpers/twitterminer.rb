@@ -26,7 +26,7 @@ class Miner
   end
   
   def loadPosts
-    @posts = YAML.load(File.open(__dir__ + "/posts.yml"))
+    @posts = YAML.load(File.open("posts.yml"))
   end
 
   def savePosts

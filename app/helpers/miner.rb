@@ -3,7 +3,7 @@ require "twitter"
 require "twitter-text"
 
 
-module TwitterMiner
+
 class Miner
 
   attr_accessor :client
@@ -26,7 +26,7 @@ class Miner
   end
   
   def loadPosts
-    @posts = YAML.load(File.open(__dir__ + "/posts.yml"))
+    @posts = YAML.load(File.open("posts.yml"))
   end
 
   def savePosts
@@ -110,5 +110,4 @@ class Post
   def dump
     return [@cel.name, @pol.name, @pol.profile_image_uri.to_s, @tweet_body, @orig_tweet]
   end
-end
 end
