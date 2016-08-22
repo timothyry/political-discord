@@ -25,20 +25,13 @@ class Miner
     puts "#{Time.now.to_s}: #{out_text}"
   end
   
-  def loadPosts(file)
-    @posts = begin
-      YAML.load(File.open("#{file}.yml"))
-    rescue ArgumentError => e
-      output "Could not parse YAML: #{e.message}"
-    rescue Errno::ENOENT => en
-      output "Could not find YAML file. Continuing."
-    end
-    output "Posts loaded from #{file}.yml."
+  def loadPosts
+    @posts = YAML::load_file(File.join(__dir__, 'posts.yml'))
   end
 
-  def savePosts(file)
-    File.open("#{file}.yml", "w") {|file| file.write(@posts.to_yaml) }
-    output "Posts saved to #{file}.yml."
+  def savePosts
+    File.open("posts.yml", "w") {|file| file.write(@posts.to_yaml) }
+    output "Posts saved to posts.yml."
   end
   
   def popPost
