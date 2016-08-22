@@ -15,7 +15,7 @@ class Discord
     @tweet_body = tweet_body
     @orig_tweet = orig_tweet
   
-    case rand(200)
+    case rand(300)
       when 0..4
         @tweet_body = @tweet_body + " In my opinion, this isn't the kind of America I want to live in."
       when 5..9
@@ -114,6 +114,46 @@ class Discord
         @tweet_body = "ESPN is a really fantastic channel, folks. True patriots at pretending to do news. Fantastic. " + @tweet_body
       when 195..199
         @tweet_body = "Smells like... fear. " + @tweet_body
+      when 200..204
+        @tweet_body = "Please don't misunderestimate this: " + @tweet_body
+      when 205..209
+        @tweet_body = "Paging @drweiner... paging @drweiner: " + @tweet_body + " Oh, and fuck Mondays, am I right?"
+      when 210..214
+        @tweet_body = "Sometimes I feel like giving up, and other times I " + @tweet_body
+      when 215..219
+        @tweet_body = @tweet_body + " ... America: where amazing happens."
+      when 220..224
+        @tweet_body =  "Am I right, @Monica_Lewinsky? -- " + @tweet_body
+      when 225..229
+        @tweet_body = "It's time to unite the country. " + @tweet_body
+      when 230..234
+        @tweet_body = "It's time to split the country apart. " + @tweet_body
+      when 235..239
+        @tweet_body = "Four score and several days ago " + @tweet_body
+      when 240..244
+        @tweet_body = @tweet_body + ", which is to say there are known unknowns."
+      when 245..249
+        @tweet_body = "Intel indicates that " + @tweet_body
+      when 250..254
+        @tweet_body = "Random email from today: " + @tweet_body
+      when 255..259
+        @tweet_body = "From today's press release, courtesy of @MSNBC: " + @tweet_body
+      when 260..264
+        @tweet_body = "Analysis from @FoxNews re: my tax policy: " + @tweet_body
+      when 265..269
+        @tweet_body = "Join me 2nite @ 10:30pm inside the Astrodome. Will speak on foreign policy, taxes, and " + @tweet_body
+      when 270..274
+        @tweet_body = @tweet_body + ", in case anyone was wondering."
+      when 275..279
+        @tweet_body = "Had this thought today during a security briefing: " + @tweet_body
+      when 280..284
+        @tweet_body = "Thoughts and prayers. It's important to remember that " + @tweet_body
+      when 285..289
+        @tweet_body = @tweet_body + ", according to sources."
+      when 290..294
+        @tweet_body = "Multiple sources are reporting that " + @tweet_body
+      when 295..299
+        @tweet_body = @tweet_body + ", according to me and my yes men."
     end
     tagList = Handles::HashTags
     firstTag = tagList.sample

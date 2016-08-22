@@ -14,5 +14,8 @@ module Handles
                                 "#Freedom", "#Patriot", "#GunsAndButter", "#donateplz", "#corporationsunited", "#boardwalk", "#payup", "#SellinToChina",
                                 "#DeficitsDontMatter", "#YoureAfiliBusta", "#SlamDunkLegislation", "#ClotureDefense", "#6thSenatorOTY", "#GOAT", "#SphericalOffice",
                                 "#OutofBounds", "#CallYourFouls", "#DoYouEvenTriangle?", "#ProChoiceTheProcess", "#RepresentativeOTY", "#GoalTending", "#pantsONFIRE",
-                                "#YES", "#BANG!", "#FromCapitalHill", "#babyfacedassassin", "#capitalGAINSfromtheGYM"]
+                                "#YES", "#BANG!", "#FromCapitalHill", "#babyfacedassassin", "#capitalGAINSfromtheGYM", "#EmailsFromErdogan", "#DYNAMITE", "#trainingday",
+                                "#fromDOWNTOWN", "#BOOMSHAKALAKA", "#JamsItIn", "#justabitoutside", "#RazzleDazzle", "#ImOnFire", "#KidAisAOkay", "#thaichilipeppersare100",
+                                "#TalesFromTheHill", "#stayshook", "#preach", "#iamkill", "#allyouneediskill", "#WhoseAllyIsSaudiArabiaAnyway", "#stepbacklegislation",
+                                "#r/nba"]
 end
