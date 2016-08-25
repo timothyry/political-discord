@@ -207,6 +207,8 @@ class WelcomeController < ApplicationController
     index.puts("<p id='topbanner'></p>")
     index.puts("<p id='star-bottom'>AMERICA</p><p id='star-top'>FUCK YEAH</p>")
     index.puts("<p id='middlebackground'></p>")
+    index.puts("<p id='left_border'></p>")
+    index.puts("<p id='right_border'></p>")
     index.puts("<div class='main'><br>")
     index.puts(firstTweet.draw(tweetMiner.client))
     index.puts("<br><br>")

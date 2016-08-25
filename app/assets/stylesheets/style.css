@@ -59,6 +59,30 @@ body {
   z-index: 0;
 }
 
+#right_border {
+  margin: 0px 0px 0px 0px;
+  padding: 0px 0px 0px 0px;
+  position: fixed;
+  height: 100%;
+  width: 12.25%;
+  left: 87.5%;
+  top: 0px;
+  z-index: 0;
+  background-image: url("right_border.png")
+}
+
+#left_border {
+  margin: 0px 0px 0px 0px;
+  padding: 0px 0px 0px 0px;
+  position: fixed;
+  height: 100%;
+  width: 12.25%;
+  left: 0%;
+  top: 0px;
+  z-index: 0;
+  background-image: url("left_border.png")
+}
+
 div.main {
 position: relative;
 z-index: 1;
