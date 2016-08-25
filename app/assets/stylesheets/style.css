@@ -70,7 +70,6 @@ body {
   z-index: 0;
   background: url("/images/right_border.png");
   background-position: left top;
-  border: 1px solid black;
 }
 
 #left_border {
@@ -84,7 +83,6 @@ body {
   z-index: 0;
   background: url("/images/left_border.png");
   background-position: top left;
-  border: 1px solid black;
 }
 
 div.main {
