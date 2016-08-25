@@ -11,7 +11,7 @@ body {
   border-left: 4px solid red;
   border-right: 4px solid red;
   border-bottom: 4px solid red;
-  background-image: url("/images/banner2.jpg") no-repeat;
+  background: url("/images/banner2.jpg") no-repeat;
   background-position: left top;
   box-shadow: 6px 6px #80bfff;
   position: relative;
@@ -68,7 +68,7 @@ body {
   left: 87.5%;
   top: 0px;
   z-index: 0;
-  background-image: url("/images/right_border.png");
+  background: url("/images/right_border.png");
   background-position: left top;
 }
 
@@ -81,7 +81,7 @@ body {
   left: 0%;
   top: 0px;
   z-index: 0;
-  background-image: url("/images/left_border.png");
+  background: url("/images/left_border.png");
   background-position: top left;
 }
 
