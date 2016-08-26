@@ -12,4 +12,4 @@ Rails.application.config.assets.version = '1.0'
 Rails.application.config.assets.precompile += %w( welcome.css )
 Rails.application.config.assets.precompile += %w( left_border.png )
 Rails.application.config.assets.precompile += %w( right_border.png )
-Rails.application.config.assets.precompile += %w( border2.jpg )
+Rails.application.config.assets.precompile += %w( banner2.jpg )
