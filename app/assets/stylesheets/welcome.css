@@ -20,7 +20,7 @@ div {
   border-left: 4px solid red;
   border-right: 4px solid red;
   border-bottom: 4px solid red;
-  background-image: url("banner2.jpg");
+  background-image: url("/assets/banner2.jpg");
   background-position: left top;
   box-shadow: 6px 6px #80bfff;
   position: relative;
