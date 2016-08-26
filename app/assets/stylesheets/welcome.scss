@@ -13,7 +13,7 @@ body {
   border-left: 4px solid red;
   border-right: 4px solid red;
   border-bottom: 4px solid red;
-  background: url(image-path('banner2.jpg') no-repeat;
+  background: url(image-path('banner2.jpg')) no-repeat;
   background-position: left top;
   box-shadow: 6px 6px #80bfff;
   position: relative;
@@ -65,7 +65,7 @@ body {
   left: 87.5%;
   top: 0px;
   z-index: 0;
-  background: url(image-path('right_border.png');
+  background: url(image-path('right_border.png'));
   background-position: left top;
   border: 1px solid black;
 }
@@ -79,7 +79,7 @@ body {
   left: 0%;
   top: 0px;
   z-index: 0;
-  background: url(image-path('left_border.png');
+  background: url(image-path('left_border.png'));
   background-position: top left;
   border: 1px solid black;
 }
