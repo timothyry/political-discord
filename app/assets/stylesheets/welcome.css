@@ -8,18 +8,25 @@ body {
   margin: 0px 0px 0px 0px;
 }
 
+div {
+  margin: 0px 0px 0px 0px;
+  padding: 0px 0px 0px 0px;
+}
+
 #topbanner {
+  margin: 0px 0px 0px 0px;
+  padding: 0px 0px 0px 0px;
   border-radius: 0px 0px 35px 35px;
   border-left: 4px solid red;
   border-right: 4px solid red;
   border-bottom: 4px solid red;
-  background-image: url('<%= asset_path("banner2.jpg") %> ')  no-repeat;
+  background-image: url("banner2.jpg");
   background-position: left top;
   box-shadow: 6px 6px #80bfff;
   position: relative;
-  top: 0px;
   width: 80%;
   height: 35%;
+  top: 0px;
   max-width: 640px;
   max-height: 200px;
   display: block;
@@ -71,7 +78,7 @@ body {
   left: 87.5%;
   top: 0px;
   z-index: 0;
-  background-image: url('<%= asset_path("right_border.png") %> ');
+  background-image: url("right_border.png");
   background-position: left top;
 }
 
@@ -84,7 +91,7 @@ body {
   left: 0%;
   top: 0px;
   z-index: 0;
-  background-image: url('<%= asset_path("left_border.png") %> ');
+  background-image: url("left_border.png");
   background-position: top left;
 }
 

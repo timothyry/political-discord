@@ -45,5 +45,3 @@ gem 'tzinfo-data', platforms: [:mingw, :mswin, :x64_mingw, :jruby]
 
 gem 'twitter'
 gem 'twitter-text'
-
-gem 'rails_12factor'

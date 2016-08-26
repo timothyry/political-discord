@@ -1,20 +1,23 @@
-/* line 5, C:/Users/Timothy/Desktop/main/website/poldiscord/app/assets/stylesheets/welcome.scss */
+// Place all the styles related to the Welcome controller here.
+// They will automatically be included in application.css.
+// You can use Sass (SCSS) here: http://sass-lang.com/
+
 body {
   background: #cce6ff;
   padding: 0px 0px 0px 0px;
   margin: 0px 0px 0px 0px;
 }
 
-/* line 11, C:/Users/Timothy/Desktop/main/website/poldiscord/app/assets/stylesheets/welcome.scss */
 #topbanner {
   border-radius: 0px 0px 35px 35px;
   border-left: 4px solid red;
   border-right: 4px solid red;
   border-bottom: 4px solid red;
-  background-image: url(/assets/banner2-08857617984ca750a786fdf88dd7d1bf95f7bd5ba2317f75cce74b5618f76a4c.jpg) no-repeat;
+  background-image: url("banner2.jpg") no-repeat;
   background-position: left top;
   box-shadow: 6px 6px #80bfff;
   position: relative;
+  top: 0px;
   width: 80%;
   height: 35%;
   max-width: 640px;
@@ -23,7 +26,6 @@ body {
   z-index: 1;
 }
 
-/* line 28, C:/Users/Timothy/Desktop/main/website/poldiscord/app/assets/stylesheets/welcome.scss */
 #bottomborder {
   margin: 0px 0px 0px 0px;
   padding: 0px 0px 0px 0px;
@@ -41,7 +43,11 @@ body {
   z-index: 1;
 }
 
-/* line 45, C:/Users/Timothy/Desktop/main/website/poldiscord/app/assets/stylesheets/welcome.scss */
+#bottomborder a {
+  color: white;
+  text-decoration: none;
+}
+
 #middlebackground {
   margin: 0px 0px 0px 0px;
   padding: 0px 0px 0px 0px;
@@ -56,7 +62,6 @@ body {
   z-index: 0;
 }
 
-/* line 59, C:/Users/Timothy/Desktop/main/website/poldiscord/app/assets/stylesheets/welcome.scss */
 #right_border {
   margin: 0px 0px 0px 0px;
   padding: 0px 0px 0px 0px;
@@ -66,12 +71,10 @@ body {
   left: 87.5%;
   top: 0px;
   z-index: 0;
-  background-image: url(/assets/right_border-a71aae98d9e9079c255b267e05561080a2de8cb37a6635fa4a288b6830788494.png);
+  background-image: url("right_border.png");
   background-position: left top;
-  border: 1px solid black;
 }
 
-/* line 73, C:/Users/Timothy/Desktop/main/website/poldiscord/app/assets/stylesheets/welcome.scss */
 #left_border {
   margin: 0px 0px 0px 0px;
   padding: 0px 0px 0px 0px;
@@ -81,25 +84,21 @@ body {
   left: 0%;
   top: 0px;
   z-index: 0;
-  background-image: url(/assets/left_border-52018abee3b929df93b17adb57b800b6f52c32bd4308ab2b7a6c495bd7cdc766.png);
+  background-image: url("left_border.png");
   background-position: top left;
-  border: 1px solid black;
 }
 
-/* line 87, C:/Users/Timothy/Desktop/main/website/poldiscord/app/assets/stylesheets/welcome.scss */
 div.main {
-  position: relative;
-  border: 0px solid black;
-  z-index: 1;
-  width: 60%;
+position: relative;
+border: 0px solid black;
+z-index: 1;
+width: 60%
 }
 
-/* line 94, C:/Users/Timothy/Desktop/main/website/poldiscord/app/assets/stylesheets/welcome.scss */
 .celTweet {
-  display: none;
+	display: none;
 }
 
-/* line 98, C:/Users/Timothy/Desktop/main/website/poldiscord/app/assets/stylesheets/welcome.scss */
 div.tweet_left {
   position: relative;
   right: 10%;
@@ -107,17 +106,9 @@ div.tweet_left {
   height: 20%;
 }
 
-/* line 105, C:/Users/Timothy/Desktop/main/website/poldiscord/app/assets/stylesheets/welcome.scss */
-div.tweet_body_left:hover .celTweet {
-  display: inline;
-}
+div.tweet_body_left:hover .celTweet { display: inline; }
+div.tweet_body_left:hover .polTweet { display: none; }
 
-/* line 106, C:/Users/Timothy/Desktop/main/website/poldiscord/app/assets/stylesheets/welcome.scss */
-div.tweet_body_left:hover .polTweet {
-  display: none;
-}
-
-/* line 108, C:/Users/Timothy/Desktop/main/website/poldiscord/app/assets/stylesheets/welcome.scss */
 div.tweet_right {
   position: relative;
   left: 10%;
@@ -125,17 +116,9 @@ div.tweet_right {
   height: 20%;
 }
 
-/* line 115, C:/Users/Timothy/Desktop/main/website/poldiscord/app/assets/stylesheets/welcome.scss */
-div.tweet_body_right:hover .celTweet {
-  display: inline;
-}
+div.tweet_body_right:hover .celTweet { display: inline; }
+div.tweet_body_right:hover .polTweet { display: none; }
 
-/* line 116, C:/Users/Timothy/Desktop/main/website/poldiscord/app/assets/stylesheets/welcome.scss */
-div.tweet_body_right:hover .polTweet {
-  display: none;
-}
-
-/* line 118, C:/Users/Timothy/Desktop/main/website/poldiscord/app/assets/stylesheets/welcome.scss */
 p.user_image_left {
   width: 65px;
   height: 65px;
@@ -151,7 +134,6 @@ p.user_image_left {
   box-shadow: 4px 4px #80bfff;
 }
 
-/* line 133, C:/Users/Timothy/Desktop/main/website/poldiscord/app/assets/stylesheets/welcome.scss */
 div.tweet_body_left {
   position: absolute;
   border-radius: 0px 15px 50px 15px;
@@ -167,7 +149,6 @@ div.tweet_body_left {
   text-align: left;
 }
 
-/* line 148, C:/Users/Timothy/Desktop/main/website/poldiscord/app/assets/stylesheets/welcome.scss */
 p.user_name_left {
   position: absolute;
   border-radius: 5px;
@@ -182,7 +163,6 @@ p.user_name_left {
   color: darkblue;
 }
 
-/* line 162, C:/Users/Timothy/Desktop/main/website/poldiscord/app/assets/stylesheets/welcome.scss */
 p.user_image_right {
   width: 65px;
   height: 65px;
@@ -199,23 +179,21 @@ p.user_image_right {
   box-shadow: 4px 4px #80bfff;
 }
 
-/* line 178, C:/Users/Timothy/Desktop/main/website/poldiscord/app/assets/stylesheets/welcome.scss */
 div.tweet_body_right {
   position: absolute;
   border-radius: 15px 0px 15px 50px;
   box-shadow: 4px 4px #80bfff;
-  background: #e6f2ff;
+  background: #e6f2ff; 
   right: 25%;
   top: 25%;
   z-index: 1;
   font-family: 'Open Sans Condensed', sans-serif;
-  font-weight: 300;
+  font-weight: 300; 
   padding: 5px 5px 5px 15px;
   margin: 10px 25px 10px 25px;
   text-align: right;
 }
 
-/* line 193, C:/Users/Timothy/Desktop/main/website/poldiscord/app/assets/stylesheets/welcome.scss */
 p.user_name_right {
   position: absolute;
   width: 30%;
@@ -231,26 +209,23 @@ p.user_name_right {
   color: darkblue;
 }
 
-/* line 208, C:/Users/Timothy/Desktop/main/website/poldiscord/app/assets/stylesheets/welcome.scss */
 a {
-  text-decoration: none;
+	text-decoration: none;
 }
 
-/* line 212, C:/Users/Timothy/Desktop/main/website/poldiscord/app/assets/stylesheets/welcome.scss */
 #star-bottom {
-  border-top: 45px solid red;
-  border-left: 50px solid transparent;
-  border-right: 50px solid transparent;
-  height: 0;
-  width: 100px;
-  bottom: 2px;
-  left: 25px;
-  position: absolute;
-  z-index: 2;
-  color: red;
+	border-top: 45px solid red;
+	border-left: 50px solid transparent;
+	border-right: 50px solid transparent;
+	height: 0;
+	width: 100px;
+	bottom:2px;
+	left:25px;
+	position: absolute;
+	z-index:2;
+	color: red;
 }
 
-/* line 225, C:/Users/Timothy/Desktop/main/website/poldiscord/app/assets/stylesheets/welcome.scss */
 #star-top {
   position: absolute;
   bottom: 45px;
@@ -291,5 +266,3 @@ a {
 */
 
 
-
-*=assets/stylesheets/welcome.scss
