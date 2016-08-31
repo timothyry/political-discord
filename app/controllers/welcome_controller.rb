@@ -204,7 +204,7 @@ class WelcomeController < ApplicationController
 
     index = File.new(Rails.root + "app/views/welcome/index.html.erb", "w+")
     index.puts("<div align='center'>")
-    index.puts("<p id='topbanner'></p>")
+    index.puts("<p id='topbanner'>Test</p>")
     index.puts("<p id='star-bottom'>AMERICA</p><p id='star-top'>FUCK YEAH</p>")
     index.puts("<p id='middlebackground'></p>")
     index.puts("<p id='left_border'></p>")
