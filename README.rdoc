@@ -12,4 +12,4 @@ solely for educational purposes.
 
 === Live Demo
 
-A live demonstration of the website is available at https://power-temple-51616.herokuapp.com
+A live demonstration of the website is available at https://powerful-temple-51616.herokuapp.com
