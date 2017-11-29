@@ -1,9 +1,9 @@
 == Political Discord (Discourt)
 
-Political Discord is a Rails-powered site that uses the Twitter Ruby gem to perform "madlib"-style word/tweet \ 
+Political Discord is a Rails-powered site that uses the Twitter Ruby gem to perform "madlib"-style word/tweet 
 substutitions for US politicians' tweets, replacing them with NBA players' and personalities' tweets for humorous effect.
 
-*This project is not actively supported and uses a deprecated Rails distribution.*
+<b>This project is not actively supported and uses a deprecated Rails distribution.<b>
 
 === Installation
 
