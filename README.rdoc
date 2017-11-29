@@ -1,28 +1,15 @@
-== README
+== Political Discord (Discourt)
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+Political Discord is a Rails-powered site that uses the Twitter Ruby gem to perform "madlib"-style word/tweet \ 
+substutitions for US politicians' tweets, replacing them with NBA players' and personalities' tweets for humorous effect.
 
-Things you may want to cover:
+*This project is not actively supported and uses a deprecated Rails distribution.*
 
-* Ruby version
+=== Installation
 
-* System dependencies
+Installation of this code by third parties in its current form is not recommended. This distribution is published
+solely for educational purposes.
 
-* Configuration
+=== Live Demo
 
-* Database creation
-
-* Database initialization
-
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
-
-
-Please feel free to use a different markup language if you do not plan to run
-<tt>rake doc:app</tt>.
+A live demonstration of the website is available at https://power-temple-51616.herokuapp.com
